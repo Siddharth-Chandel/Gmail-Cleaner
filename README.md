@@ -66,9 +66,9 @@ I'm an aspiring full stack data scientist...
 - Python
 - Database
 - Data Science
+- Cloud Computing
 - Automation
 - Linux
-
 
 
 ## Other Common Github Profile Sections
