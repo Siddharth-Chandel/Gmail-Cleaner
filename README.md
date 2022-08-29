@@ -1,11 +1,11 @@
 
 # **Gmail Cleaner**
 
-As so many user having social media account in today's world, they receives so many promotional or some important e-mails. If the user is an active user on social media, then he is able to manage their Gmail account easily. But if the user is inactive for sometime and later he wants to be an active user, then, by seeing lot of unuseful mails on their account, the user become frustrate and if he decides to clean his account by deleting all the mails, then it turns into very tedious and time consuming task.
+As so many user having social media account in today's world, they receives so many promotional or some important e-mails. If a user is an active user on social media, then he is able to do systemically arrangement of their Gmail account very easily. But if a user is inactive for sometime and later on he wants to be active again, then, by seeing lot of unuseful mails on their account, the user become frustrate and if he decides to clean his account by deleting all the mails, then it turns into very tedious and time consuming task.
 
-For these kind of scenario, automation comes in existence. This, Gmail Cleaner, do your tedious and time consuming task of cleaning the mails in a few minutes. And you become free to do any other important work.
+For these kind of scenario, automation comes in existence. This program, do your tedious and time consuming task of cleaning the mails in a few minutes. And meanwhile, you become free to do any other important work.
 
-## Authors
+## Author
 
 - [@Siddharth-Chandel](https://github.com/Siddharth-Chandel)
 
@@ -22,7 +22,7 @@ Using Gmail Cleaner, you can :
 
 Install undetected chromedriver and selenium using pip
 
-```bash
+```
   pip install undetected_chromedriver
   pip install selenium
 ```
@@ -31,7 +31,7 @@ Install undetected chromedriver and selenium using pip
 
 To run tests, run the following command
 
-```bash
+```
   python Gmail_Cleaner.py
 ```
 ## Documentation
@@ -64,30 +64,19 @@ I'm an aspiring full stack data scientist...
 
 ## 🛠 Skills
 - Python
-- Flask
-- SQL
-- Statistic
-- Artificial Intelligence
-- Machine Learning
-- ML Model Cloud Deployment
-- Deep Learning
-- Computer Vision
-- Natural Language Processing
+- Database
 - Data Science
-- Feature Engineering
-- Web Scrapping
 - Automation
-- Streamlit
-- Power BI
+- Linux
 
 
 
 ## Other Common Github Profile Sections
 👩‍💻 I'm a student...
 
-🧠 I'm currently learning Data Science...
+🧠 I'm currently practicing Data Science...
 
-👯‍♀️ I'm looking to collaborate on real projects...
+👯‍♀️ I'm looking to do collaboration on real-life projects...
 
 🤔 I'm looking for help for getting internships...
 
