@@ -1,12 +1,9 @@
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import WebDriverException, NoSuchWindowException
 from undetected_chromedriver.webelement import WebElement
 import pyautogui as gui
 import time
-import os
-
-path = input('Path of Chrome Driver : ')
-os.chdir(path+'\\')
 
 
 def TotalMails(driver: uc.Chrome) -> WebElement:
@@ -24,7 +21,7 @@ def main() -> None:
     print('Starting...')
     try:
         # Initializing chrome driver
-        driver = uc.Chrome(use_subprocess=True, version_main='104')
+        driver = uc.Chrome()
         driver.implicitly_wait(30)
         driver.get('https://mail.google.com/mail/u/0/#inbox')
         driver.maximize_window()
@@ -70,7 +67,7 @@ def main() -> None:
                                 time.sleep(5)
                             except:
                                 break
-                        print('Done')
+                            
             # Read Action
             elif action.lower() == 'read':
                 while driver.find_element(
@@ -96,12 +93,13 @@ def main() -> None:
                         time.sleep(5)
                     except:
                         break
-                print('Done')
+        print('Done')
         print('Closed')
         driver.close()
-    except Exception as e:
-        print('error : ', e)
-
+    except NoSuchWindowException :
+        print('Closed')
+    except WebDriverException as e:
+        print(e)
 
 if __name__ == '__main__':
     main()
