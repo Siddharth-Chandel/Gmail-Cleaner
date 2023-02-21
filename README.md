@@ -32,7 +32,7 @@ Install undetected chromedriver and selenium using pip
 To run tests, run the following command
 
 ```
-  python Gmail_Cleaner.py
+  python main.py
 ```
 ## Documentation
 
